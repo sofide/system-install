@@ -85,4 +85,5 @@ sudo apt install -y \
     kazam \
     guvcview \
     openshot \
-    openrazer-meta
+    openrazer-meta \
+    clementine
