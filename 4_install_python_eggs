@@ -1,29 +1,15 @@
 #!/bin/bash
+# system tools
 pip install \
-    virtualenv \
-    virtualenvwrapper \
-    jupyter[notebook] \
-    nbconvert \
-    pep8 \
-    flake8 \
     httpie \
-    ipdb \
-    requests \
     supervisor \
-    bunch \
     sphinx \
     lice \
     pydot \
     ffind \
     vanity \
-    pudb \
-    flask \
     pyparsing==1.5.7 \
-    pandas \
-    pyquery \
-    butterfly \
     ngxtop \
-    isort \
     percol \
     speedtest-cli \
     pgcli \
@@ -33,9 +19,11 @@ pip install \
     glances \
     ohmu \
     pinggraph \
-    pipenv \
-    pdir2 \
-    pprint \
-    sh \
     magic-wormhole \
+
+pip3 install \
     fades
+
+# neovim dependences
+pip install neovim pep8 flake8 pyflakes pylint isort
+pip3 install neovim pep8 flake8 pyflakes pylint isort
